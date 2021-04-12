@@ -3,7 +3,7 @@
 int main() {
   std::cout << "ORIGINAL STORY!!\n\n";
   std::cout << "Rules: to choose just type the number. Type any other number to quit.\n\n";
-  bool continueGame {true};
+  bool continueGame = true;
   int survival = 0;
   int choice1, choice2, choice3, choice4;
 
